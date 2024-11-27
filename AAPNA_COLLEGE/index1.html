@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> MY COLLEGE</title>
+
+    <!-- LINK WITH CSS -->
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="width-100 top-header">
+        <div class="container">
+            <div class="width-100">
+                <b class="news-list"> NEWS :</b>
+                <marquee class="headquote"> This is a important notice about my college</marquee>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container" id="form">
+        <h2>Registration Form</h2>
+        <div class="form-container"></div>
+        <form action="submit.php" method="post">
+
+            <!-- FORM FIELDS HERE -->
+
+            <div class="input-name">
+                <i class="fa fa-user lock"></i>
+                <input type="text" placeholder=" Fast Name" class="name" required>
+
+                <span> 
+                    <i class="fa fa-user lock"></i> 
+                    <input type="text" placeholder=" Last Name" class="name" required> 
+                </span>
+            </div>
+            <!-- EMAIL -->
+
+            <div class="input-name">
+                <i class="fa fa-envelope email"></i>
+                <input type="email" placeholder="Email" class="text-name" required>
+            </div>
+
+
+            <div class="input-name">
+                <i class="fa fa-lock lock"></i>
+                <input type="password" placeholder="Enter Password" class="text-name" required>
+            </div>
+
+            <!-- GENDER -->
+
+            <div class="input-name">
+                <input type="radio" name="d1" class="radio-button" id="male" required>
+                <label for="male"> Male</label>
+                <input type="radio" name="d1" class="radio-button" id="female">
+                <label for="female"> Female</label>
+                <input type="radio" name="d1" class="radio-button" id="other">
+                <label for="other"> Other</label>
+            </div>
+
+            <!-- STATE -->
+            <div>
+                <select class="STATE" required> 
+                    <option>Select a STATE</option> 
+                    <option>Andhra Pradesh</option>
+                    <option>Arunachal Pradesh</option>
+                    <option>Assam</option>
+                    <option>Bihar</option>
+                    <option>Chhattisgarh</option>
+                    <option>Goa</option>
+                    <option>Gujarat</option>
+                    <option>Haryana</option>
+                    <option>Himachal Pradesh</option>
+                    <option>Jharkhand</option>
+                    <option>Karnataka</option>
+                    <option>Kerala</option>
+                    <option>Madhya Pradesh</option>
+                    <option>Maharashtra</option>
+                    <option>Manipur</option>
+                    <option>Meghalaya</option>
+                    <option>Mizoram</option>
+                    <option>Nagaland</option>
+                    <option>Odisha</option>
+                    <option>Punjab</option>
+                    <option>Rajasthan</option>
+                    <option>Sikkim</option>
+                    <option>Tamil Nadu</option>
+                    <option>Telangana</option>
+                    <option>Tripura</option>
+                    <option>Uttar Pradesh</option>
+                    <option>Uttarakhand</option>
+                    <option>West Bengal</option>
+            
+                    
+                </select>
+            </div>
+            <!-- PASSWORD -->
+            <div class="input-name">
+                <input type="checkbox" id="terms" class="check-button" required>
+                <label for="terms">I Accept the terms and conditions <required/label>
+
+
+            </div>
+
+            <!-- SUBMIT -->
+            <button type="submit" class="button"><a href="welcome.html">Submit</a></button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

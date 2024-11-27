@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c2d6e9;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4b3c3c;
+    color: #e4d3b7; 
+    border-bottom: 3px solid #b59a85;
+}
+
+
+ /* Larger font size for the college name */
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+
+/* Slightly larger subtitle */
+h2 {
+    margin: 10px 0;
+    font-size: 1.5rem; 
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+    /* Increased gap between images */
+    gap: 14px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+
+     /* More rounded corners for images */
+    border-radius: 12px;
+    /* box-shadow: 0 4px 12px rgba(232, 5, 5, 0.3); Softer shadow for images */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+
+/* Slight zoom effect on hover */
+.gallery img:hover {
+    transform: scale(1.23); 
+}
+
+
+/* Single column on small screens */
+@media (max-width: 600px) {
+    .gallery {
+        grid-template-columns: 1fr; 
+    }
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 100px;
+    padding: 10px 20px;
+    color: #a05050;
+    background-color: #28a745;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.back-button:hover {
+    background-color: #4e7f59;
+}

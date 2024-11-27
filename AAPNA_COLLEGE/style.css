@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c75c5c;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: rgb(106, 113, 147);
+    color: rgb(240, 246, 247);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 10px 10px rgba(9, 172, 115, 0.1); */
+}
+
+#hero {
+    text-align: center;
+}
+
+.program-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+footer {
+    background-color: #333;
+    height: 2vw;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#learnMoreBtn {
+    background-color: #e6ac487b;
+    padding: 3px;
+    color: #fff;
+    border: none;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #34a434;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.register-btn:hover {
+    background-color: #4cae4c;
+}

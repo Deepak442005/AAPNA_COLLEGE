@@ -1,0 +1,100 @@
+ 
+        :root { 
+            /* background started */ 
+            --bgCol: rgb(63, 94, 251); 
+            --bgCent:rgba(63,94,251,1); 
+            --bgOut: rgba(171,89,106,1); 
+            /* background ended  */ 
+ 
+            /* header  */ 
+            --headCol:#3f5efb; 
+            
+            /* text color */ 
+            --txtCol:#333; 
+             
+            /* buttton color */ 
+            --btnCol: #007BFF; 
+            --btnHovCol: #1976D2; 
+        } 
+ 
+        body { 
+            font-family: Arial, sans-serif;  
+            background:var(--bgCol); 
+            background: radial-gradient(circle, var(--bgCent)  0%, var(--bgOut) 100%);  
+            margin: 0; 
+            padding: 20px; 
+        } 
+ 
+        .container { 
+            max-width: 800px; 
+            margin: auto; 
+            background: white; 
+            padding: 40px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+        } 
+ 
+        h1 { 
+            text-align: center; 
+            color:var(--headCol); 
+        } 
+ 
+        h2 { 
+            color: var(--btnCol); 
+        } 
+ 
+        p { 
+            color: var(--txtCol); 
+        } 
+ 
+        form { 
+            margin-bottom: 20px; 
+        } 
+ 
+        label { 
+            font-weight: bold; 
+        } 
+ 
+        input[type="text"], 
+        input[type="email"], 
+        textarea { 
+            width: 100%; 
+            padding: 10px; 
+            margin: 5px 0 15px; 
+            border: 1px solid #ddd; 
+            border-radius: 4px; 
+        } 
+ 
+        input[type="submit"] { 
+            background-color: var(--btnCol); 
+            width: 200px; 
+            color: white; 
+            padding: 10px; 
+            border: none; 
+            border-radius: 10px; 
+            cursor: pointer; 
+        } 
+ 
+        input[type="submit"]:hover { 
+            background-color: var(--btnHovCol); 
+        } 
+ 
+        .social-media { 
+            text-align: center; 
+            list-style-type: none; 
+            padding: 0; 
+        } 
+ 
+        .social-media li { 
+            display: inline; 
+            margin-right: 15px; 
+        } 
+ 
+        .social-media a { 
+            color: #007BFF; 
+            text-decoration: none; 
+        } 
+ 
+        .social-media a:hover { 
+            text-decoration: underline; 
+        } 

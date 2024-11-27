@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+
+    <!-- Admission Process -->
+
+    <center>
+        <h1>Admission Form</h1>
+    </center>
+    <form action="/submit-admission" method="POST">
+        <label for="name">First Name:</label>
+        <input type="text" placeholder="First Name" name="name" required>
+
+
+        <label for="name">Middle Name:</label>
+        <input type="text" placeholder="Middle Name" name="name">
+
+
+        <label for="name">Last Name:</label>
+        <input type="text" placeholder="Last Name" name="name" required>
+
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="email" name="email" required>
+
+
+        <label for="phone">Phone Number:</label>
+        <input type="number" placeholder="Phone" name="phone" required>
+
+
+        <label for="course">Select Course:</label>
+        <select id="course" name="course" required>
+        <option value="">--Select a course--</option>
+        <option value="computer-science">Computer Science</option>
+        <option value="business-administration">Business Administration</option>
+
+        
+        <!-- <option value="engineering">Engineering</option> -->
+        <option value="arts">Arts</option>
+        <option value="arts">Bachelor of Computer Applications</option>
+        <option value="arts">Bachelor of Business Administration</option>
+        <option value="arts">Master of Computer Applications</option>
+    </select>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+
+        
+        <!-- <button type="submit">Submit Application</button> -->
+         <button type="submit" class="register-btn"><a href="congratulations.html">Register</a></button>
+
+        
+    </form>
+
+</body>
+
+</html>
+
+</html>

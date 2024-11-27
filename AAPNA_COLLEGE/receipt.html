@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="receipt.css">
+    <title>Payment Receipt</title>
+</head>
+<body>
+    <div class="receipt-container">
+        <h2>Payment Complete!</h2>
+        <p>Thank you for your payment.</p>
+        <p>Your transaction ID is: <span id="transaction-id">123456789</span></p>
+        <p>Amount: <strong>$100.00</strong></p>
+        <p>Date: <strong><script>document.write(new Date().toLocaleDateString());</script></strong></p>
+        <a href="index.html" class="back-button">HOME</a>
+    </div>
+</body>
+</html>
